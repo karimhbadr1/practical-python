@@ -28,6 +28,7 @@ if principal-payment<0:
     
 print('Total paid', round(total_paid, 2))
 print('Months', month)
+f'{month} month'
 
 
 

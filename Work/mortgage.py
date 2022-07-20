@@ -17,7 +17,9 @@ while principal>0 and (principal-payment>0):
     if month>=extra_payment_start_month and month<=extra_payment_end_month:
         total_paid=total_paid+extra_payment
         principal=principal-extra_payment
-    print('Month',month,'Total paid',round(total_paid,2),'Remaining',round(principal,2))
+        #f'{month} month {total_paid} Total Paid {principal} remaining'
+    f'{month} month {total_paid} Total Paid {principal} remaining'
+    #print('Month',month,'Total paid',round(total_paid,2),'Remaining',round(principal,2))
 
 if (principal-payment<=0):
     month+=1
